@@ -1,2 +1,5 @@
+/node_modules/
+/nera-responsible-play-plugin-*.zip
 .DS_Store
+*.bak
 Untitled

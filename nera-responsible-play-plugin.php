@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: Nera – Responsible Play
- * Plugin URI: https://github.com/Nera-Marketing/nera-responsible-play
+ * Plugin URI: https://github.com/Nera-Marketing/nera-responsible-play-plugin
  * Description: Responsible-play / player-protection feature for WooCommerce competition sites. Auto-creates a "Help and support" page with a services directory, admin-editable via ACF. Signposts support at checkout (clause 1.4), account area, account-close flow (clause 1.5), and a sitewide footer strip.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Nera
  * Text Domain: nera-responsible-play-plugin
  * Requires at least: 6.0
@@ -18,7 +18,7 @@ use YahnisElsts\PluginUpdateChecker\v5p5\Vcs\GitHubApi;
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'NERA_RP_VERSION', '1.0.0' );
+define( 'NERA_RP_VERSION', '1.0.1' );
 define( 'NERA_RP_PLUGIN_FILE', __FILE__ );
 define( 'NERA_RP_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'NERA_RP_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
@@ -39,7 +39,7 @@ define( 'NERA_RP_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
  * @link https://github.com/YahnisElsts/plugin-update-checker
  */
 if ( ! defined( 'NERA_RP_DISABLE_GITHUB_UPDATES' ) || ! NERA_RP_DISABLE_GITHUB_UPDATES ) {
-	$nera_rp_github_repo_default = 'https://github.com/Nera-Marketing/nera-responsible-play/';
+	$nera_rp_github_repo_default = 'https://github.com/Nera-Marketing/nera-responsible-play-plugin/';
 	if ( defined( 'NERA_RP_GITHUB_REPO_URL' ) && is_string( NERA_RP_GITHUB_REPO_URL ) && NERA_RP_GITHUB_REPO_URL !== '' ) {
 		$nera_rp_github_repo_default = NERA_RP_GITHUB_REPO_URL;
 	}
