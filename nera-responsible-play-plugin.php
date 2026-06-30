@@ -3,7 +3,7 @@
  * Plugin Name: Nera – Responsible Play
  * Plugin URI: https://github.com/Nera-Marketing/nera-responsible-play-plugin
  * Description: Responsible-play / player-protection feature for WooCommerce competition sites. Auto-creates a "Help and support" page with a services directory, admin-editable via ACF. Signposts support at checkout (clause 1.4), account area, account-close flow (clause 1.5), and a sitewide footer strip.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: Nera
  * Text Domain: nera-responsible-play-plugin
  * Requires at least: 6.0
@@ -18,7 +18,7 @@ use YahnisElsts\PluginUpdateChecker\v5p5\Vcs\GitHubApi;
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'NERA_RP_VERSION', '1.0.2' );
+define( 'NERA_RP_VERSION', '1.0.3' );
 define( 'NERA_RP_PLUGIN_FILE', __FILE__ );
 define( 'NERA_RP_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'NERA_RP_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
